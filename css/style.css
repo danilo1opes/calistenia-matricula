@@ -2,6 +2,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alice&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
+/* Global */
+@import url("global/global.css");
+@import url("global/footer.css");
+@import url("global/header.css");
+
 /* ESTILOS */
 @import "utilities/color.css";
 @import "utilities/typography.css";
+
+/* INTRODUÇÃO */
+@import "introduction/introduction.css";

@@ -2,18 +2,18 @@
   font: 400 4.5rem/1.4 "Alice", sans-serif;
 }
 
-font-2-a {
+.font-2-a {
   font: 400 1.5rem/1.5 "Nunito", sans-serif;
 }
 
-font-2-b {
+.font-2-b {
   font: 400 1.125rem/1.35 "Nunito", sans-serif;
 }
 
-font-2-b-n {
+.font-2-b-n {
   font: 600 1.125rem/1.35 "Nunito", sans-serif;
 }
 
-font-2-c {
+.font-2-c {
   font: 400 0.875rem/1.43 "Nunito", sans-serif;
 }

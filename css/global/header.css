@@ -1,0 +1,92 @@
+/* Header */
+
+.sub-header {
+  background-color: var(--cor-3);
+  color: var(--cor-0);
+}
+
+.sub-header p {
+  margin-left: 1.875rem;
+  padding: 5px;
+}
+
+.navbar {
+  background-color: var(--cor-1);
+  display: flex;
+  justify-content: space-between;
+  padding: 0.625rem;
+}
+
+.logosize {
+  margin-left: 1.25rem;
+}
+
+/* Listas */
+
+ul {
+  display: flex;
+  margin-right: 1.25rem;
+  gap: 1.875rem;
+  align-items: center;
+  position: relative;
+}
+
+ul li:hover {
+  color: var(--cor-4);
+}
+
+ul li:last-child a::before {
+  content: "";
+  display: inline-block;
+  width: 100px;
+  height: 2px;
+  background-color: var(--cor-0);
+  position: absolute;
+  top: 2rem;
+}
+
+/* RESPONSIVIDADE */
+
+@media screen and (max-width: 768px) {
+  .sub-header p {
+    display: none;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  .logosize {
+    width: 50%;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  ul {
+    gap: 1.875rem;
+    justify-content: center;
+  }
+  ul li:last-child a::before {
+    display: none;
+  }
+  li {
+    font-size: 0.999rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    gap: 0.675rem;
+  }
+  .logosize {
+    width: 40%;
+    justify-content: center;
+  }
+  ul {
+    gap: 1rem;
+    margin: 0;
+  }
+  li {
+    font-size: 0.825rem;
+  }
+}

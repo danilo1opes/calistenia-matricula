@@ -9,6 +9,7 @@
   --cor-7: #11bbbb;
   --cor-8: #44ccdd;
   --cor-9: #ff1133;
+  --cor-10: #000000;
 }
 
 .color-0 {
@@ -49,4 +50,8 @@
 
 .color-9 {
   color: var(--cor-9);
+}
+
+.color-10 {
+  color: var(--cor-10);
 }
