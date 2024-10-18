@@ -42,21 +42,27 @@
   border: 1px solid var(--cor-5);
 }
 
-.form-intro input[type="email"] {
+.form-intro input[type='email'] {
   width: 300px;
   color: var(--cor-3);
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 600;
   outline: none;
 }
 
-.form-intro input[type="email"]::placeholder {
+.form-intro input[type='email']::placeholder {
   color: var(--cor-4);
 }
 
-/* RESPONSIVIDADE */
+/* RESPONSIVO */
 
-@media screen and (max-width: 768px) {
+@media (max-width: 1024px) {
+  .overlay h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 768px) {
   .overlay {
     top: 140px;
     flex-direction: column;
@@ -77,7 +83,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 480px) {
   .overlay {
     height: auto;
     width: auto;
@@ -93,7 +99,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media (max-width: 375px) {
   .overlay {
     margin-left: 3rem;
   }

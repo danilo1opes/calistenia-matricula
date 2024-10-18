@@ -1,0 +1,146 @@
+.container-primario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 60px 30px;
+}
+
+.conteudo-primario {
+  position: relative;
+}
+
+.workout {
+  margin-left: 25px;
+}
+
+.conteudo-primario h3 {
+  text-transform: uppercase;
+  margin-left: 40px;
+}
+
+.conteudo-primario h3::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 2px solid red;
+  background-color: var(--cor-0);
+  left: 45px;
+  bottom: 112px;
+}
+
+.conteudo-primario p {
+  margin-left: 72px;
+}
+
+.conteudo-primario p::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background-color: var(--cor-6);
+  left: 75px;
+  bottom: 93px;
+}
+
+.down {
+  position: relative;
+}
+
+.down h1 {
+  margin: 0 0 90px 0;
+}
+
+.down h1::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 617px;
+  height: 2px;
+  background-color: var(--cor-4);
+  top: 250px;
+}
+
+.cut-imgs {
+  display: flex;
+  margin: 0 0 90px 0;
+  position: relative;
+  align-items: center;
+}
+
+.cut-img {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  margin: 0 0 90px 0;
+}
+
+.cut-imgs h3,
+.cut-img h3 {
+  margin-left: 30px;
+}
+
+.pixel::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 617px;
+  height: 2px;
+  background-color: var(--cor-4);
+  top: 100px;
+}
+
+.pixels::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 617px;
+  height: 2px;
+  background-color: var(--cor-4);
+  top: 80px;
+}
+
+/* RESPOSIVO */
+
+@media (max-width: 768px) {
+  .container-primario {
+    grid-template-columns: 1fr;
+  }
+  .conteudo-primario img {
+    display: none;
+  }
+  .workout {
+    display: none;
+  }
+  .down h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+  }
+  .down h1::after {
+    display: none;
+  }
+  .pixel::after,
+  .pixels::after {
+    width: 350px;
+  }
+}
+
+@media (max-width: 375px) {
+  .down h1 {
+    font-size: 2rem;
+  }
+  .cut-imgs h3,
+  .cut-img h3 {
+    font-size: 1.275rem;
+  }
+  .paragraph p {
+    font-size: 1rem;
+  }
+  .pixel::after,
+  .pixels::after {
+    width: 300px;
+  }
+}
