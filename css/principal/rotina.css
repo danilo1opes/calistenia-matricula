@@ -1,0 +1,107 @@
+.container-rotina {
+  display: flex;
+  justify-content: center;
+}
+
+.cards-section h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.2rem;
+}
+
+.rotina-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 1.5rem;
+  position: relative;
+}
+
+.card-icons {
+  position: absolute;
+  display: flex;
+  align-self: center;
+  top: 45px;
+}
+
+.card {
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  margin-top: 1.5rem;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.card h2::after {
+  content: '';
+  display: block;
+  width: 300px;
+  height: 2px;
+  background-color: var(--cor-11);
+  position: absolute;
+  top: 72px;
+  left: 72px;
+}
+
+.card-list {
+  margin-top: 3.5rem;
+  position: relative;
+}
+
+.card-list li {
+  margin-bottom: 1.2rem;
+  position: relative;
+}
+
+.card-list li::before {
+  content: '';
+  display: block;
+  width: 6px;
+  height: 6px;
+  border: 2px solid var(--cor-6);
+  border-radius: 100%;
+  position: absolute;
+  top: 7px;
+  left: 85px;
+}
+
+.card-list::after {
+  content: '';
+  display: block;
+  width: 300px;
+  height: 2px;
+  background-color: var(--cor-11);
+  position: absolute;
+  top: 144px;
+  left: 72px;
+}
+
+.paragraph-card {
+  margin-top: 3.5rem;
+}
+
+.button-flex {
+  display: flex;
+  justify-content: center;
+}
+
+.dark-btt {
+  margin-top: 1rem;
+  background-color: var(--cor-2);
+  color: var(--cor-0);
+  padding: 5px 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 1.4rem;
+  cursor: pointer;
+}

@@ -23,7 +23,7 @@
 
 /* Listas */
 
-ul {
+.navlist {
   display: flex;
   margin-right: 1.25rem;
   gap: 1.875rem;
@@ -31,11 +31,11 @@ ul {
   position: relative;
 }
 
-ul li:hover {
+.navlist li:hover {
   color: var(--cor-4);
 }
 
-ul li:last-child a::before {
+.navlist li:last-child a::before {
   content: '';
   display: inline-block;
   width: 100px;
