@@ -1,0 +1,28 @@
+.container-position {
+  position: relative;
+  width: 120%;
+  max-width: 120%;
+  margin-top: 2.5rem;
+}
+
+.container-position img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.texto-sobreposto {
+  position: absolute;
+  top: 250px;
+  left: 325px;
+  color: var(--cor-0);
+  text-align: center;
+}
+
+.texto-sobreposto h1 {
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.texto-sobreposto p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
