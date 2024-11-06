@@ -1,0 +1,91 @@
+.middle {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.container-contact {
+  display: grid;
+  grid-template-columns: 1fr 100px 1fr;
+  margin-top: 2.5rem;
+  justify-items: center;
+}
+
+.inputs {
+  background: #dfeced;
+  border: none;
+  margin: 0.875rem 0 0.875rem 0;
+  padding: 10px;
+  width: 450px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+.comment-div h1 {
+  margin-bottom: 0.875rem;
+}
+
+.comment-div textarea {
+  background: #dfeced;
+  border: none;
+  padding: 10px;
+  width: 450px;
+  height: 150px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
+  margin-bottom: 0.875rem;
+}
+
+.comment-div textarea::placeholder {
+  font-family: 'Nunito', sans-serif;
+}
+
+.btt-dark {
+  padding: 15px 30px;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  color: var(--cor-0);
+  border-radius: 5px;
+  background-color: var(--cor-1);
+}
+
+#detail {
+  width: 2px;
+  height: 100%;
+  background-color: #dfeced;
+}
+
+.second-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+#detail-second {
+  width: 100%;
+  height: 2px;
+  background-color: #dfeced;
+}
+
+.community {
+  display: flex;
+  gap: 2px;
+}
+
+.youtube:hover {
+  color: #c00;
+  text-decoration: underline;
+}
+
+.telegram:hover {
+  color: #006699;
+  text-decoration: underline;
+}
+
+.instagram:hover {
+  color: #b22258;
+  text-decoration: underline;
+}
+
+.twitter:hover {
+  color: #0d95e8;
+  text-decoration: underline;
+}
