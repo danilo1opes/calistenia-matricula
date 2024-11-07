@@ -89,3 +89,130 @@
   color: #0d95e8;
   text-decoration: underline;
 }
+
+.beff-position {
+  position: relative;
+}
+
+.beff::before {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 2px solid var(--cor-12);
+  top: 5px;
+  left: -20px;
+  position: absolute;
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .inputs {
+    width: 400px;
+  }
+  .comment-div textarea {
+    width: 300px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-contact {
+    grid-template-columns: 1fr;
+  }
+  #detail {
+    display: none;
+  }
+  .inputs {
+    width: 350px;
+  }
+  .comment-div textarea {
+    width: 250px;
+  }
+  .btt-dark {
+    padding: 15px 25px;
+  }
+  .beff::before {
+    display: none;
+  }
+  .second-content {
+    margin-top: 3rem;
+  }
+  .beff-position h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 0.675rem;
+  }
+  .beff::before {
+    display: none;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .container-contact {
+    grid-template-columns: 1fr;
+  }
+  .middle {
+    font-size: 2.5rem;
+  }
+  .inputs {
+    width: 250px;
+  }
+  .comment-div textarea {
+    width: 250px;
+  }
+  .btt-dark {
+    padding: 10px 20px;
+  }
+  .second-content {
+    margin-top: 3rem;
+  }
+  .beff-position h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 0.675rem;
+  }
+  .beff::before {
+    display: none;
+  }
+  .imgUnic {
+    display: none;
+  }
+  .beff-position a {
+    font-size: 0.625rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .container-contact {
+    grid-template-columns: 1fr;
+  }
+  .middle {
+    font-size: 2.5rem;
+  }
+  .inputs {
+    width: 250px;
+  }
+  .comment-div textarea {
+    width: 250px;
+  }
+  .btt-dark {
+    padding: 10px 20px;
+  }
+  .second-content {
+    margin-top: 3rem;
+  }
+  .beff-position h3 {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 0.675rem;
+  }
+  .beff::before {
+    display: none;
+  }
+  .imgUnic {
+    display: none;
+  }
+  .beff-position a {
+    font-size: 0.65rem;
+  }
+}
