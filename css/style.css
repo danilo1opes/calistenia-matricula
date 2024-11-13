@@ -17,3 +17,8 @@
 @import 'principal/rotina.css';
 @import 'principal/back-image.css';
 @import 'principal/contact.css';
+
+/* CONTATO HTML */
+
+@import 'contact/header-back.css';
+@import 'contact/forms.css';

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Contato</title>
+  </head>
+  <body>
+    <!--cabecalho-->
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <img
+            class="logosize"
+            src="assets/img/Logo.svg"
+            alt="Logo da Calistenia"
+          />
+        </div>
+
+        <ul class="navlist font-2-b color-0">
+          <li><a href="#">Treinos</a></li>
+          <li><a href="#">Aulas</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="#">Matricule-se</a></li>
+        </ul>
+      </nav>
+
+      <div class="back-sub">
+        <p class="font-1-xs color-0">Matricule-se</p>
+      </div>
+    </header>
+
+    <!--Conteúdo Principal-->
+    <main>
+      <section class="content-forms">
+        <div class="conteudo-primario">
+          <form>
+            <label for="#">
+              <h1 class="font-2-c-n">Nome:</h1>
+              <input type="text" name="name" class="forms-color" />
+            </label>
+
+            <br />
+
+            <label for="#">
+              <h1 class="font-2-c-n">Email:</h1>
+              <input type="email" name="email" class="forms-color" />
+            </label>
+
+            <br />
+
+            <label for="#">
+              <h1 class="font-2-c-n">CPF</h1>
+              <input
+                type="text"
+                name="cpf"
+                class="forms-color"
+                placeholder="000.000.000-00"
+              />
+            </label>
+
+            <br />
+            <!--first row-->
+            <div class="form-row">
+              <label for="#">
+                <h1 class="font-2-c-n">Endereço</h1>
+                <input
+                  type="text"
+                  name="endereco"
+                  class="forms-color"
+                  placeholder="Rua, Número e Bairro"
+                />
+              </label>
+              <label for="#">
+                <h1 class="font-2-c-n">Estado</h1>
+                <select id="estado">
+                  <option>Selecione o Estado</option>
+                  <!-- Adicione as opções dos estados aqui -->
+                </select>
+              </label>
+            </div>
+            <!--last row-->
+            <div class="form-row">
+              <label for="#">
+                <h1 class="font-2-c-n">CEP</h1>
+                <input
+                  type="text"
+                  name="endereco"
+                  class="forms-color"
+                  placeholder="222.222-000"
+                />
+              </label>
+              <label for="#">
+                <h1 class="font-2-c-n">Cidade</h1>
+                <select id="cidade">
+                  <option>Selecione a Cidade</option>
+                  <!-- Adicione as opções das cidades aqui -->
+                </select>
+              </label>
+            </div>
+          </form>
+        </div>
+
+        <p class="font-2-c-n color-6" id="detail-contact">Forma de Pagamento</p>
+
+        <div class="conteudo-secundario"></div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer">
+      <p class="font-2-c">Alguns direitos Reservados.</p>
+    </footer>
+  </body>
+</html>

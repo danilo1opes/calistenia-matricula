@@ -1,0 +1,59 @@
+.content-forms {
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
+.form-row {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.forms-color {
+  background: #dfeced;
+  border: none;
+  margin: 0.875rem 0 0.875rem 0;
+  padding: 10px;
+  width: 450px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+input.forms-color[name='endereco'] {
+  width: 225px;
+}
+
+input.forms-color[name='estado'] {
+  width: 225px;
+}
+
+#cidade {
+  background: #dfeced;
+  border: none;
+  margin: 0.875rem 0 0.875rem 0;
+  padding: 10px;
+  width: 225px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+#estado {
+  background: #dfeced;
+  border: none;
+  margin: 0.875rem 0 0.875rem 0;
+  padding: 10px;
+  width: 225px;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.4);
+}
+
+#detail-contact {
+  margin-top: 1rem;
+  position: relative;
+}
+
+#detail-contact::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 472px;
+  height: 2px;
+  background-color: #f7f7f7;
+  top: 30px;
+}
