@@ -25,6 +25,10 @@ input.forms-color[name='estado'] {
   width: 225px;
 }
 
+select {
+  color: gray;
+}
+
 #cidade {
   background: #dfeced;
   border: none;
@@ -54,6 +58,6 @@ input.forms-color[name='estado'] {
   position: absolute;
   width: 472px;
   height: 2px;
-  background-color: #f7f7f7;
+  background-color: var(--cor-11);
   top: 30px;
 }

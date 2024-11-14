@@ -104,8 +104,85 @@
 
         <p class="font-2-c-n color-6" id="detail-contact">Forma de Pagamento</p>
 
-        <div class="conteudo-secundario"></div>
+        <div class="payment-options">
+          <input
+            type="radio"
+            id="credit"
+            name="payment"
+            value="credit"
+            checked
+          />
+          <label for="credit">
+            <!--Para criar o btt-->
+            <span class="custom-radio"></span>
+            <h1 class="font-2-c-n">Cartão de Crédito</h1>
+          </label>
+
+          <input type="radio" id="boleto" name="payment" value="boleto" />
+          <label for="boleto">
+            <span class="custom-radio"></span>
+            <h1 class="font-2-c-n">Boleto Bancário</h1>
+          </label>
+        </div>
+
+        <div class="cartoes">
+          <div class="nome-exp">
+            <label for="#">
+              <h1 class="font-2-c-n">Nome do Cartão</h1>
+              <input
+                type="text"
+                name="cartao"
+                placeholder="Nome impresso no cartão"
+              />
+            </label>
+
+            <div>
+              <label for="#">
+                <h1 class="font-2-c-n">Data de Expiração</h1>
+              </label>
+              <select id="mes">
+                <option>Mês</option>
+              </select>
+              <select id="ano">
+                <option>Ano</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="numero-codigo">
+            <label for="#">
+              <h1 class="font-2-c-n">Número do Cartão</h1>
+              <input
+                type="text"
+                name="number"
+                placeholder="Nome impresso no cartão"
+              />
+            </label>
+
+            <div>
+              <label for="#">
+                <h1 class="font-2-c-n">Código de Segurança</h1>
+              </label>
+              <input type="text" name="cvv" placeholder="XXX" />
+            </div>
+          </div>
+        </div>
+
+        <div class="criptografia">
+          <p id="detail-pay" class="font-2-c-n color-3">
+            Seu cartão será debitado em R$ 49,00
+          </p>
+
+          <button class="matricula-btt font-2-c color-0">Matricule-se</button>
+
+          <div class="flex-icon-cripto">
+            <img src="assets/icon/padlock.svg" alt="Padlock" />
+            <p class="font-2-c-n color-3">Informações seguras e Criptogradas</p>
+          </div>
+        </div>
       </section>
+
+      <section class="conteudo-secundario"></section>
     </main>
 
     <!--Footer-->
