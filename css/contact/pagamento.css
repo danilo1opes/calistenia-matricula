@@ -133,3 +133,16 @@ select {
   gap: 5px;
   margin-top: 0.475rem;
 }
+
+@media (max-width: 480px) {
+  .payment-options {
+    flex-direction: column;
+    width: 250px;
+  }
+  .nome-exp {
+    flex-direction: column;
+  }
+  .numero-codigo {
+    flex-direction: column;
+  }
+}

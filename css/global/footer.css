@@ -8,3 +8,12 @@
   text-align: center;
   color: var(--cor-0);
 }
+
+@media (max-width: 481px) {
+  .footer {
+    padding: 2.5rem;
+  }
+  .footer p {
+    font-size: 1rem;
+  }
+}

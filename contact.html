@@ -11,11 +11,13 @@
     <header>
       <nav class="navbar">
         <div class="logo">
-          <img
-            class="logosize"
-            src="assets/img/Logo.svg"
-            alt="Logo da Calistenia"
-          />
+          <a href="index.html">
+            <img
+              class="logosize"
+              src="assets/img/Logo.svg"
+              alt="Logo da Calistenia"
+            />
+          </a>
         </div>
 
         <ul class="navlist font-2-b color-0">
@@ -32,7 +34,7 @@
     </header>
 
     <!--Conteúdo Principal-->
-    <main>
+    <main class="grid-contact">
       <section class="content-forms">
         <div class="conteudo-primario">
           <form>
@@ -182,7 +184,40 @@
         </div>
       </section>
 
-      <section class="conteudo-secundario"></section>
+      <section class="conteudo-secundario">
+        <div class="plan">
+          <h3 class="font-2-b-n">Escolha um plano</h3>
+          <div class="tabs">
+            <input type="radio" id="tab-iniciante" name="tab" checked />
+            <label class="font-2-c-n" for="#">
+              <span class="custom-radio"></span>
+              <h3 class="font-2-c-n">Iniciante</h3>
+            </label>
+
+            <input type="radio" id="tab-intermediario" name="tab" />
+            <label class="font-2-c-n" for="#">
+              <span class="custom-radio"></span>
+              <h3 class="font-2-c-n">Intermediario</h3>
+            </label>
+
+            <input type="radio" id="tab-avancado" name="tab" />
+            <label for="#">
+              <span class="custom-radio"></span>
+              <h3 class="font-2-c-n">Avançado</h3>
+            </label>
+          </div>
+
+          <div class="tab-content" id="content-iniciante">
+            <h3 class="font-2-b-n">Iniciante</h3>
+            <ul>
+              <li class="font-2-c">Aquecimento (5-10 minutos)</li>
+              <li class="font-2-c">Treino 1 - Corpo Completo</li>
+              <li class="font-2-c">Flexão de Braços (Push-ups)</li>
+            </ul>
+            <p class="training-duration font-2-b-n color-9">1 hora de Treino</p>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!--Footer-->
