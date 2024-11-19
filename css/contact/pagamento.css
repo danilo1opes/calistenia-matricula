@@ -134,7 +134,7 @@ select {
   margin-top: 0.475rem;
 }
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .payment-options {
     flex-direction: column;
     width: 250px;
@@ -145,4 +145,4 @@ select {
   .numero-codigo {
     flex-direction: column;
   }
-}
+} */

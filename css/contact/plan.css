@@ -121,7 +121,7 @@
   top: 25px;
 }
 
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   .grid-contact {
     grid-template-columns: 1fr;
   }
@@ -146,4 +146,4 @@
   .tab-content {
     display: none;
   }
-}
+} */

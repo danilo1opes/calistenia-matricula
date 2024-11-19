@@ -125,7 +125,7 @@
   left: 60px;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+/* @media (min-width: 992px) and (max-width: 1199px) {
   .card-list li::before {
     left: 40px;
   }
@@ -195,4 +195,4 @@
   .card-list li::before {
     left: 75px;
   }
-}
+} */

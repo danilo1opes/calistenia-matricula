@@ -106,7 +106,7 @@
   position: absolute;
 }
 
-@media (min-width: 992px) and (max-width: 1199px) {
+/* @media (min-width: 992px) and (max-width: 1199px) {
   .inputs {
     width: 400px;
   }
@@ -215,4 +215,4 @@
   .beff-position a {
     font-size: 0.65rem;
   }
-}
+} */

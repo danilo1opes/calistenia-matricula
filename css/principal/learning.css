@@ -104,7 +104,7 @@
 
 /* RESPOSIVO */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .container-primario {
     grid-template-columns: 1fr;
   }
@@ -143,4 +143,4 @@
   .pixels::after {
     width: 300px;
   }
-}
+} */

@@ -17,7 +17,7 @@
   padding: 0.625rem;
 }
 
-.logosize {
+.navbar img {
   margin-left: 1.25rem;
 }
 
@@ -39,6 +39,11 @@
   cursor: pointer;
 }
 
+.navlist li:nth-child(-n + 3) a {
+  user-select: none;
+  cursor: not-allowed;
+}
+
 .navlist li:last-child a::before {
   content: '';
   display: inline-block;
@@ -51,7 +56,7 @@
 
 /* RESPONSIVIDADE */
 
-/* @media (max-width: 768px) {
+@media (max-width: 480px) {
   .sub-header p {
     display: none;
   }
@@ -59,44 +64,48 @@
     flex-direction: column;
     gap: 1.25rem;
   }
-  .logosize {
-    width: 50%;
+  .logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.875rem;
+  }
+  .navlist {
+    gap: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+  }
+  .navlist li:last-child a::before {
+    display: none;
+  }
+  .navlist li {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .sub-header p {
+    display: none;
+  }
+  .navbar {
+    flex-direction: column;
+    gap: 1.25rem;
   }
   .logo {
     display: flex;
     justify-content: center;
-  }
-  ul {
-    gap: 1.875rem;
-    justify-content: center;
-  }
-  ul li:last-child a::before {
-    display: none;
-  }
-  li {
-    font-size: 0.999rem;
-  }
-} */
-
-@media (max-width: 480px) {
-  .navbar {
-    gap: 0.475rem;
-  }
-  .logosize {
-    width: 40%;
-    justify-content: center;
-  }
-  ul {
-    gap: 1rem;
-    margin: 0;
-  }
-  li {
-    font-size: 0.825rem;
+    margin-top: 0.875rem;
   }
   .navlist {
-    margin-right: 0px;
+    gap: 1.5rem;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
   }
   .navlist li:last-child a::before {
     display: none;
+  }
+  .navlist li {
+    font-size: 1rem;
   }
 }

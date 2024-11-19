@@ -4,7 +4,7 @@
   padding: 2.5rem;
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+/* @media (min-width: 768px) and (max-width: 991px) {
   .back-sub {
     padding: 2rem;
     font-size: 3.5rem;
@@ -27,4 +27,4 @@
   .back-sub p {
     font-size: 2rem;
   }
-}
+} */
