@@ -1,7 +1,7 @@
 .container-primario {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 60px 30px;
+  margin: 30px 30px;
 }
 
 .conteudo-primario {
@@ -131,6 +131,7 @@
     margin-left: 0px;
     background-color: var(--cor-11);
     border-radius: 5px;
+    border-style: double;
     padding: 30px;
   }
   .workout h3 {
@@ -142,10 +143,10 @@
   }
   .conteudo-primario h3::before {
     top: 36px;
-    left: 6px;
+    left: 10px;
   }
   .conteudo-primario p::before {
-    left: 10px;
+    left: 18px;
     bottom: 119px;
   }
 }
@@ -177,6 +178,7 @@
     margin-left: 0px;
     background-color: var(--cor-11);
     border-radius: 5px;
+    border-style: double;
     padding: 30px;
   }
   .workout h3 {
@@ -188,10 +190,10 @@
   }
   .conteudo-primario h3::before {
     top: 36px;
-    left: 6px;
+    left: 10px;
   }
   .conteudo-primario p::before {
-    left: 10px;
+    left: 18px;
     bottom: 80px;
   }
 }
@@ -223,6 +225,7 @@
     margin-left: 0px;
     background-color: var(--cor-11);
     border-radius: 5px;
+    border-style: double;
     padding: 30px;
   }
   .workout h3 {
@@ -234,10 +237,10 @@
   }
   .conteudo-primario h3::before {
     top: 36px;
-    left: 6px;
+    left: 10px;
   }
   .conteudo-primario p::before {
-    left: 10px;
+    left: 18px;
     bottom: 80px;
   }
   .pixel::after {

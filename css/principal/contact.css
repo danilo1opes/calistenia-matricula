@@ -106,41 +106,31 @@
   position: absolute;
 }
 
-/* @media (min-width: 992px) and (max-width: 1199px) {
-  .inputs {
-    width: 400px;
+@media (max-width: 480px) {
+  .middle {
+    font-size: 2.75rem;
   }
-  .comment-div textarea {
-    width: 300px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
   .container-contact {
     grid-template-columns: 1fr;
-  }
-  #detail {
-    display: none;
+    margin: 30px;
   }
   .inputs {
-    width: 350px;
+    width: 325px;
   }
   .comment-div textarea {
-    width: 250px;
-  }
-  .btt-dark {
-    padding: 15px 25px;
-  }
-  .beff::before {
-    display: none;
+    width: 325px;
   }
   .second-content {
-    margin-top: 3rem;
+    margin-top: 2.5rem;
   }
-  .beff-position h3 {
-    font-size: 1.5rem;
-    text-align: center;
-    margin-bottom: 0.675rem;
+  .imgUnic {
+    display: none;
+  }
+  .second-content a {
+    font-size: 0.695rem;
+  }
+  .beff {
+    margin-bottom: 10px;
   }
   .beff::before {
     display: none;
@@ -148,71 +138,38 @@
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
+  .middle {
+    font-size: 3.5rem;
+  }
   .container-contact {
     grid-template-columns: 1fr;
-  }
-  .middle {
-    font-size: 2.5rem;
+    margin: 30px;
   }
   .inputs {
-    width: 250px;
+    width: 350px;
   }
   .comment-div textarea {
-    width: 250px;
-  }
-  .btt-dark {
-    padding: 10px 20px;
+    width: 400px;
   }
   .second-content {
-    margin-top: 3rem;
-  }
-  .beff-position h3 {
-    font-size: 1.2rem;
-    text-align: center;
-    margin-bottom: 0.675rem;
-  }
-  .beff::before {
-    display: none;
+    margin-top: 2.5rem;
   }
   .imgUnic {
     display: none;
   }
-  .beff-position a {
-    font-size: 0.625rem;
+  .beff {
+    margin-bottom: 10px;
+  }
+  .beff::before {
+    display: none;
   }
 }
 
-@media (max-width: 480px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .container-contact {
-    grid-template-columns: 1fr;
+    margin: 30px;
   }
-  .middle {
-    font-size: 2.5rem;
+  .second-content a {
+    font-size: 0.695rem;
   }
-  .inputs {
-    width: 250px;
-  }
-  .comment-div textarea {
-    width: 250px;
-  }
-  .btt-dark {
-    padding: 10px 20px;
-  }
-  .second-content {
-    margin-top: 3rem;
-  }
-  .beff-position h3 {
-    font-size: 1.2rem;
-    text-align: center;
-    margin-bottom: 0.675rem;
-  }
-  .beff::before {
-    display: none;
-  }
-  .imgUnic {
-    display: none;
-  }
-  .beff-position a {
-    font-size: 0.65rem;
-  }
-} */
+}
