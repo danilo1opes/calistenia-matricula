@@ -121,29 +121,8 @@
   top: 25px;
 }
 
-/* @media (max-width: 1199px) {
+@media (max-width: 480px) {
   .grid-contact {
     grid-template-columns: 1fr;
   }
 }
-
-@media (min-width: 481px) and (max-width: 767px) {
-  .conteudo-secundario {
-    margin-top: 3rem;
-    margin-left: 2rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .plan {
-    box-shadow: none;
-  }
-  .tabs {
-    flex-direction: column;
-    width: 250px;
-    margin-bottom: 5rem;
-  }
-  .tab-content {
-    display: none;
-  }
-} */

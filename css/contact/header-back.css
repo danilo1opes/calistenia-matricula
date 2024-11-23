@@ -4,27 +4,14 @@
   padding: 2.5rem;
 }
 
-/* @media (min-width: 768px) and (max-width: 991px) {
-  .back-sub {
-    padding: 2rem;
-    font-size: 3.5rem;
+@media (max-width: 480px) {
+  .back-sub p {
+    font-size: 2.5rem;
   }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
-  .back-sub {
-    padding: 1.5rem;
-  }
   .back-sub p {
     font-size: 3rem;
   }
 }
-
-@media (max-width: 480px) {
-  .back-sub {
-    padding: 0.75rem;
-  }
-  .back-sub p {
-    font-size: 2rem;
-  }
-} */
