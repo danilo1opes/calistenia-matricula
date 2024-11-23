@@ -152,4 +152,10 @@ select {
   input[name='cvv'] {
     width: 70px;
   }
+  #detail-contact::after {
+    width: 350px;
+  }
+  #detail-pay::before {
+    width: 350px;
+  }
 }
