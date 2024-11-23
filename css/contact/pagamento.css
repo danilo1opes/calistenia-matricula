@@ -133,16 +133,23 @@ select {
   gap: 5px;
   margin-top: 0.475rem;
 }
-
-/* @media (max-width: 480px) {
-  .payment-options {
-    flex-direction: column;
-    width: 250px;
+@media (max-width: 480px) {
+  .forms-color {
+    width: 350px;
   }
-  .nome-exp {
-    flex-direction: column;
+  .form-row input[type='text'] {
+    width: 200px;
   }
-  .numero-codigo {
-    flex-direction: column;
+  #estado {
+    width: 125px;
   }
-} */
+  #cidade {
+    width: 125px;
+  }
+  #min {
+    width: 200px;
+  }
+  input[name='cvv'] {
+    width: 70px;
+  }
+}
