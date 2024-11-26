@@ -126,6 +126,17 @@
   left: 60px;
 }
 
+@media (max-width: 360px) {
+  .footer-p p {
+    font-size: 0.765rem;
+    text-align: center;
+  }
+  .footer-contato::after {
+    left: 53px;
+    width: 40px;
+  }
+}
+
 @media (max-width: 480px) {
   .container-rotina {
     margin-top: 3.75rem;

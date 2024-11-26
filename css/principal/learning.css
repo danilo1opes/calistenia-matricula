@@ -104,6 +104,15 @@
 
 /* RESPOSIVO */
 
+@media (max-width: 450px) {
+  .pixel::after {
+    width: 100%;
+  }
+  .pixels::after {
+    width: 100%;
+  }
+}
+
 @media (max-width: 480px) {
   .container-primario {
     grid-template-columns: 1fr;

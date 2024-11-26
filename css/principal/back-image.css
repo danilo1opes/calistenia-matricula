@@ -1,6 +1,6 @@
 .container-position {
   position: relative;
-  width: 120%;
+  width: 100%;
   max-width: 120%;
   margin-top: 2.5rem;
 }
@@ -13,7 +13,7 @@
 
 .texto-sobreposto {
   position: absolute;
-  top: 250px;
+  top: 200px;
   left: 325px;
   color: var(--cor-0);
   text-align: center;
@@ -37,6 +37,15 @@
   }
   .texto-sobreposto p {
     font-size: 0.875rem;
+  }
+}
+@media (max-width: 360px) {
+  .texto-sobreposto {
+    top: 35px;
+    left: 50px;
+  }
+  .texto-sobreposto h1 {
+    font-size: 1.5rem;
   }
 }
 
