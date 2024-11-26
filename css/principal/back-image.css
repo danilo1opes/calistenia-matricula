@@ -29,8 +29,8 @@
 
 @media (max-width: 480px) {
   .texto-sobreposto {
-    top: 60px;
-    left: 43px;
+    top: 45px;
+    left: 55px;
   }
   .texto-sobreposto h1 {
     font-size: 1.8rem;
@@ -51,8 +51,8 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
   .texto-sobreposto {
-    top: 100px;
-    left: 95px;
+    top: 90px;
+    left: 125px;
   }
   .texto-sobreposto h1 {
     font-size: 3rem;
@@ -61,7 +61,10 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .texto-sobreposto {
-    top: 150px;
-    left: 125px;
+    top: 90px;
+    left: 100px;
+  }
+  .texto-sobreposto h1 {
+    font-size: 3.5rem;
   }
 }

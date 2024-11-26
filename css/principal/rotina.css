@@ -204,4 +204,10 @@
     width: 100%;
     left: 0;
   }
+  .dark-btt {
+    padding: 5px 30px;
+  }
+  .card-list li::before {
+    display: none;
+  }
 }

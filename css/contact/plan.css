@@ -1,6 +1,7 @@
 .grid-contact {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  justify-self: center;
 }
 
 .conteudo-secundario {

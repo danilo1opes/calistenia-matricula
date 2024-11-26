@@ -61,24 +61,9 @@ select {
   background-color: var(--cor-11);
   top: 30px;
 }
-/* 
-@media (min-width: 481px) and (max-width: 767px) {
-  .forms-color {
-    width: 350px;
-  }
-  #cidade {
-    width: 170px;
-  }
-  #estado {
-    width: 170px;
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #detail-contact::after {
+    width: 390px;
   }
 }
-
-@media (max-width: 480px) {
-  .forms-color {
-    width: 250px;
-  }
-  .form-row {
-    flex-direction: column;
-  }
-} */

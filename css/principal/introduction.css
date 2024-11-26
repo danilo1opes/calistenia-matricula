@@ -86,7 +86,10 @@
   .bottom-right {
     bottom: 30px;
   }
+  .form-intro button {
+    padding: 0.625rem 1.275rem;
+  }
   .form-intro input[type='email'] {
-    width: 220px;
+    width: 200px;
   }
 }

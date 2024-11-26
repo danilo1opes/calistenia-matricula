@@ -169,6 +169,12 @@
   .container-contact {
     margin: 30px;
   }
+  .inputs {
+    width: 250px;
+  }
+  .comment-div textarea {
+    width: 300px;
+  }
   .second-content a {
     font-size: 0.695rem;
   }
