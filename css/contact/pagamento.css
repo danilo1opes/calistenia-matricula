@@ -159,3 +159,42 @@ select {
     width: 350px;
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .forms-color {
+    width: 350px;
+  }
+  .form-row input[type='text'] {
+    width: 200px;
+  }
+  #estado {
+    width: 125px;
+  }
+  #cidade {
+    width: 125px;
+  }
+  #min {
+    width: 200px;
+  }
+  input[name='cvv'] {
+    width: 70px;
+  }
+  #detail-contact::after {
+    width: 350px;
+  }
+  #detail-pay::before {
+    width: 350px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .forms-color {
+    width: 350px;
+  }
+  #estado {
+    width: 170px;
+  }
+  #cidade {
+    width: 170px;
+  }
+}

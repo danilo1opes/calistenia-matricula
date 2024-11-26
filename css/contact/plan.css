@@ -126,3 +126,10 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .grid-contact {
+    grid-template-columns: 1fr;
+    justify-self: center;
+  }
+}
