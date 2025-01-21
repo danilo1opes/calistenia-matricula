@@ -39,7 +39,7 @@
   cursor: pointer;
 }
 
-.navlist li:nth-child(-n + 3) a {
+.navlist li:nth-child(-n + 2) a {
   user-select: none;
   cursor: not-allowed;
 }
